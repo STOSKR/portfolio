@@ -38,7 +38,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px] text-justify'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '
       >
         I am a 4th-year computer engineering student with a passion for technology, programming, and developing innovative solutions. Throughout my academic journey, I have developed a strong foundation in software development, data structures and algorithms. I have also gained experience in web development, mobile app development, and machine learning. I am a quick learner and collaborative person.
       </motion.p>
