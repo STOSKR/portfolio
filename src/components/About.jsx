@@ -42,7 +42,7 @@ const About = () => {
       >
         I am a 4th-year computer engineering student with a passion for technology, programming, and developing innovative solutions. Throughout my academic journey, I have developed a strong foundation in software development, data structures and algorithms. I have also gained experience in web development, mobile app development, and machine learning. I am a quick learner and collaborative person.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-12'>
+      <div className='mt-20 flex flex-wrap gap-12 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
