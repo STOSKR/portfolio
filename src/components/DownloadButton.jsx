@@ -6,9 +6,9 @@ const DownloadButton = () => {
     const [isDone, setIsDone] = useState(false);
     const buttonRef = useRef(null);
 
-    const duration = parseInt(getComputedStyle(buttonRef.current).getPropertyValue('--duration'), 10);
-
     const handleClick = () => {
+        const duration = parseInt(getComputedStyle(buttonRef.current).getPropertyValue('--duration'), 10);
+
         if (!isActive && !isDone) {
             setIsActive(true);
             setTimeout(() => {
@@ -44,7 +44,8 @@ const DownloadButton = () => {
                     </div>
                     <span />
                 </div>
-                <div className="label">
+
+                <div className="label select-none">
                     <div id='default' className={!isActive && !isDone ? 'show' : 'hide'}>Download C.V.</div>
                     <div id='state' className={isActive || isDone ? 'show' : 'hide'}>
                         <div className="counter">
