@@ -6,6 +6,7 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import DownloadButton from './DownloadButton.jsx'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -46,6 +47,9 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
+      <div className='mt-20 flex justify-center'>
+        <DownloadButton />
       </div>
     </>
   )
