@@ -15,14 +15,6 @@ const DownloadButton = () => {
                 setIsDone(true);
             }, duration);
         }
-        if (isDone) {
-            setIsDone(false);
-            setIsActive(true);
-            setTimeout(() => {
-                setIsDone(true);
-                setIsActive(false);
-            }, duration);
-        }
 
     };
 
