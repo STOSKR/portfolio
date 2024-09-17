@@ -4,11 +4,13 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    spring,
     html,
     css,
     reactjs,
-    redux,
+    java,
+    sql,
+    kotlin,
     tailwind,
     nodejs,
     mongodb,
@@ -46,7 +48,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Mobile APP Developer",
         icon: mobile,
     },
     {
@@ -54,7 +56,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Frontend Developer",
         icon: creator,
     },
 ];
@@ -69,36 +71,40 @@ const technologies = [
         icon: css,
     },
     {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Java",
+        icon: java,
+    },
+    {
         name: "JavaScript",
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "Kotlin",
+        icon: kotlin,
+    },
+    {
+        name: "Three JS",
+        icon: threejs,
     },
     {
         name: "React JS",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "Spring",
+        icon: spring,
     },
     {
         name: "Node JS",
         icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
+        name: "SQL",
+        icon: sql,
     },
     {
         name: "git",
@@ -107,10 +113,6 @@ const technologies = [
     {
         name: "figma",
         icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 
