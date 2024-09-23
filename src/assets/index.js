@@ -17,6 +17,10 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import spring from "./tech/spring.png";
+import java from "./tech/java.png";
+import sql from "./tech/sql.png";
+import kotlin from "./tech/kotlin.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -33,6 +37,10 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
+  spring,
+  java,
+  sql,
+  kotlin,
   creator,
   mobile,
   web,
