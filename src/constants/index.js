@@ -13,14 +13,12 @@ import {
     kotlin,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    fukui,
+    oasis,
+    matchi,
+    matcher,
     carrent,
     jobit,
     tripguide,
@@ -118,55 +116,55 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Backend Developer",
+        company_name: "MATCHi",
+        icon: matchi,
+        iconBg: "#50be4e",
+        date: "Dec 2023 - Jun 2024",
+        location: "Valencia, Spain",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Managed databases, developed automation scripts, developed and maintained mobile applications using java and other related technologies, documented processes, and trained new staff",
+            "Enhanced team performance by 40% through efficient completion of pending tasks upon taking on the role, leading to a more streamlined and effective workflow.",
+            "Enhanced the upload process by 20% through script optimization"
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Frontend Developer / Team Lead",
+        company_name: "Oasis",
+        icon: oasis,
+        iconBg: "#F5F5DC",
+        date: "Mar 2024 - Mar 2024",
+        location: "Valencia, Spain",
+        points: [
+            "Desinging and exposing the idea of a mobile application that allows users to book and manage their powerbanks.",
+            'Awarded €1000 for winning the Hackathon and received an invitation to the "Big Day" (National competition only for two winning teams).',
+            "Earned diplomas for Best Presentation, Most Innovative Idea and 1st place in the hackathon.",
+        ],
+    },
+    {
+        title: "Full Stack Developer",
+        company_name: "Matcher",
+        icon: matcher,
+        iconBg: "#000000",
+        date: "May 2024 - May 2024",
+        location: "Barcelona, Spain",
+        points: [
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developed an AI to identify products in the Inditex database based on a photo",
+            "Created a scraping bot to download and classify images from Inditex databases."
+        ],
+    },
+    {
+        title: "Restaurant manager",
+        company_name: "Restaurante Fukui",
+        icon: fukui,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jul 2019 - Present",
+        location: "Valencia, Spain",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Supervised dining room operations to ensure high customer satisfaction and efficiency, managed reservations and optimized table assignments, trained personnel on service protocols and food safety standards, and resolved service issues promptly.",
+            "Increase customer satisfaction by 20% approximately.",
+            "Boosted visits by 32%.",
         ],
     },
 ];
@@ -200,13 +198,13 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "SmartTrade",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Android application that allows users to buy eco-friendly products, browse a wide selection of sustainable items, read detailed descriptions and reviews, compare prices, and receive personalized recommendations based on their preferences. The app also features a order tracking, and a user-friendly interface to enhance the shopping experience while promoting environmentally responsible choices.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "kotlin",
+                color: "violet-text-gradient",
             },
             {
                 name: "mongodb",
