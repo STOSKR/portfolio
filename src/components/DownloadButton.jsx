@@ -13,9 +13,13 @@ const DownloadButton = () => {
             setIsActive(true);
             setTimeout(() => {
                 setIsDone(true);
+                // Inicia la descarga del archivo
+                const link = document.createElement('a');
+                link.href = './CV_EN.pdf';
+                link.download = 'CV_EN.pdf';
+                link.click();
             }, duration);
         }
-
     };
 
     return (
@@ -24,7 +28,7 @@ const DownloadButton = () => {
             ref={buttonRef}
             onClick={handleClick}
         >
-            <div >
+            <div>
                 <div className="icon">
                     <div>
                         <svg className="arrow" viewBox="0 0 20 18" fill="currentColor">
