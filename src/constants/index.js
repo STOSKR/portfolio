@@ -19,6 +19,7 @@ import {
     oasis,
     matchi,
     matcher,
+    smarttrade,
     carrent,
     jobit,
     tripguide,
@@ -203,20 +204,28 @@ const projects = [
             "Android application that allows users to buy eco-friendly products, browse a wide selection of sustainable items, read detailed descriptions and reviews, compare prices, and receive personalized recommendations based on their preferences. The app also features a order tracking, and a user-friendly interface to enhance the shopping experience while promoting environmentally responsible choices.",
         tags: [
             {
-                name: "kotlin",
+                name: "Kotlin",
                 color: "violet-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Spring Boot",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "Java",
+                color: "red-text-gradient",
+            },
+            {
+                name: "API REST",
+                color: "blue-yellow-text-gradient",
+            },
+            {
+                name: "JUnit",
+                color: "red-green-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: smarttrade,
+        source_code_link: "https://github.com/orgs/SmarTradeUPV/repositories",
     },
     {
         name: "Job IT",

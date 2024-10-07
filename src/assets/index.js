@@ -31,11 +31,13 @@ import matcher from "./company/matcher.png";
 import fukui from "./company/fukui.png";
 
 import carrent from "./projectos/carrent.png";
+import smarttrade from "./projectos/smarttrade.png";
 import jobit from "./projectos/jobit.png";
 import tripguide from "./projectos/tripguide.png";
 
 
 export {
+  smarttrade,
   logo,
   backend,
   spring,
