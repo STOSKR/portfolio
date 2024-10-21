@@ -34,6 +34,8 @@ import carrent from "./projectos/carrent.png";
 import smarttrade from "./projectos/smarttrade.png";
 import jobit from "./projectos/jobit.png";
 import tripguide from "./projectos/tripguide.png";
+import matcherlogo from "./projectos/matcherlogo.jpg";
+import swappy from "./projectos/swappy.jpg";
 
 
 export {
@@ -70,4 +72,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  matcherlogo,
+  swappy,
 };

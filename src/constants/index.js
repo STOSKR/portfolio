@@ -19,10 +19,9 @@ import {
     oasis,
     matchi,
     matcher,
+    matcherlogo,
     smarttrade,
-    carrent,
-    jobit,
-    tripguide,
+    swappy,
     threejs,
 } from "../assets";
 
@@ -201,7 +200,7 @@ const projects = [
     {
         name: "SmartTrade",
         description:
-            "Android application that allows users to buy eco-friendly products, browse a wide selection of sustainable items, read detailed descriptions and reviews, compare prices, and receive personalized recommendations based on their preferences. The app also features a order tracking, and a user-friendly interface to enhance the shopping experience while promoting environmentally responsible choices.",
+            "Android app for eco-friendly shopping, featuring a wide product selection, detailed descriptions, reviews, price comparisons, and personalized recommendations. Includes order tracking and a user-friendly interface to enhance the sustainable shopping experience.",
         tags: [
             {
                 name: "Kotlin",
@@ -228,46 +227,62 @@ const projects = [
         source_code_link: "https://github.com/orgs/SmarTradeUPV/repositories",
     },
     {
-        name: "Job IT",
+        name: "Matcher",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "API developed for the Inditex challenge that scrape images,and then utilizes AI to classify them, and recommend similar clothing items from Inditex's database when a user uploads a photo. This innovative backend solution provides the core functionality for personalized clothing recommendations based on visual input.",
         tags: [
             {
-                name: "react",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "Kaggle",
+                color: "light-blue-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "JavaScript",
+                color: "yellow-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: matcherlogo,
+        source_code_link: "https://www.kaggle.com/code/stoskr/hackupc",
     },
     {
-        name: "Trip Guide",
+        name: "Swappy",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Swap your old clothes effortlessly with others, experience the magic of our standout feature - the virtual wardrobe. Try on your clothes virtually with just a few clicks, without the hassle of physically taking them out. Elevate your fashion game and make sustainable choices!",
         tags: [
             {
-                name: "nextjs",
+                name: "Flutter",
+                color: "light-blue-text-gradient",
+            },
+            {
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Flask",
+                color: "white-text",
+            },
+            {
+                name: "Firebase",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "API REST",
+                color: "blue-yellow-text-gradient",
+            },
+            {
+                name: "Remove.bg",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "FashionGAN",
+                color: "green-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: swappy,
+        source_code_link: "https://github.com/orgs/SwappyUPV/repositories",
     },
 ];
 
